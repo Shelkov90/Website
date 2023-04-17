@@ -141,3 +141,9 @@ h6{
     color: rgb(144, 144, 144);
     margin-top: 10px;
 }
+.triangle{
+background-image: url(../img/зубцы.png);
+background-size: cover;
+background-repeat:repeat;
+min-height: 10px;
+}
