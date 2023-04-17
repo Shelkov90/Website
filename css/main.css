@@ -37,7 +37,7 @@ margin-left:25px;
   background-image: url(../img/bg_header.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 470px;
+  min-height: 470px;
 }
 .left img{
   margin-left: 200px;
@@ -76,6 +76,49 @@ margin-left:25px;
 .items{
   display: flex;
   list-style-type: none;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.items li{
+  margin-left: 0px;
+}
+.items li:nth-child(1){
+  margin-left: 0;
+}
+
+.items li a{
+  display: block;
+    font-size: 28px;
+    font-family: "Stylu";
+    color: rgb(80, 148, 242);
+    margin-top: 5px;
+    text-decoration: none;
+}
+.items li:nth-child(1) a{
+  width:85%;
+}
+.items li:nth-child(2) a{
+  width:27%;
+  margin-left: 65px;
+}
+.items li:nth-child(3) a{
+  width:21%;
+  margin-left: 70px;
+}
+.items p{
+    font-size: 18px;
+    font-family: "Segoe Print";
+    color: rgb(144, 144, 144);
+    line-height: 1.2;
+    text-align: center;
+    margin-left: -25px;
+}
+.col-12 h3{
+    font-size: 50px;
+    font-family: "Jokerman";
+    color: rgb(77, 142, 215);
+    text-shadow: 0px 9px 0px rgba(122, 130, 161, 0.37);
+    margin-top: 10px;
 }
 
   
